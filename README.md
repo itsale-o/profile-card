@@ -31,7 +31,7 @@ These are my solutions. Both desktop and mobile versions
 
 ### Links
 
-- Solution URL: [My solution](https://your-solution-url.com)
+- Solution URL: [My solution](https://itsale-o.github.io/profile-card-frontend-mentor/)
 
 ## My process
 
