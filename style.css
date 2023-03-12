@@ -12,7 +12,7 @@ body{
     justify-content: center; 
     align-items: center;
     background-color: #19A2AE;
-    font-family: Kumbh Sans;
+    font-family: Kumbh Sans, sans-serif;
 }
 
 .bgImageContainer{
