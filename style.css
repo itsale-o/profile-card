@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    background-color: #19A2AE;
+    font-family: Kumbh Sans, sans-serif;
+}
+
+.bgImageContainer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.bgImage{
+    position: absolute;
+}
+
+#bgImageTop{
+    right: 52%;
+    bottom: 35%;
+}
+
+#bgImageBottom{
+    top: 52%;
+    left: 42%;
+}
+
+
+#profileCard{
+    background-color: white;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: auto 130px;
+    width: 320px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 20px 45px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+h1, h2{
+    font-size: 18px;
+    color: #2D3248;
+}
+    
+.greyish{
+    font-weight: 400;
+    color: #6A6F81;
+    font-size: 14px;
+}
+
+.age{
+    font-size: 18px;
+}
+    
+#profilePic{
+    border-radius: 50%;
+    border: solid 4px white;
+    margin-top: 65px;
+    margin-bottom: -20px;
+}
+    
+#nameAgeLocation{
+    text-align: center;
+}
+    
+#nameAge{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+    
+#numbers{
+    width: inherit;
+    border-top: 1px solid #E9E9E9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+    
+#followers{
+    padding-left: 20px;
+}
+    
+#likes{
+    padding-right: 6px;
+}
+    
+#photos{
+    padding-right: 20px;
+}
+    
+.sizes{
+    font-size: 10px;
+}
+    
+footer{
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 5px;
+}
+footer a{color: blue; }
+
+@media(max-width: 700px){
+    #profileCard{
+        background-color: white;
+        background-image: url(images/bg-pattern-card.svg);
+        background-repeat: no-repeat;
+        background-size: auto 130px;
+        width: 320px;
+        height: 350px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0 20px 45px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+    h1, h3{
+        font-size: 18px;
+        color: #2D3248;
+    }
+        
+    .greyish{
+        font-weight: 400;
+        color: #6A6F81;
+        font-size: 14px;
+    }
+    
+    .age{
+        font-size: 18px;
+    }
+        
+    #profilePic{
+        border-radius: 50%;
+        border: solid 4px white;
+        margin-top: 65px;
+        margin-bottom: -20px;
+    }
+        
+    #nameAgeLocation{
+        text-align: center;
+    }
+        
+    #nameAge{
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+        
+    #numbers{
+        width: inherit;
+        border-top: 1px solid #E9E9E9;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+        
+    #followers{
+        padding-left: 20px;
+    }
+        
+    #likes{
+        padding-right: 6px;
+    }
+        
+    #photos{
+        padding-right: 20px;
+    }
+        
+    .sizes{
+        font-size: 10px;
+    }
+        
+    footer{
+        font-size: 11px; 
+        text-align: center;
+        margin-top: 5px;
+    }
+    footer a{color: blue; }
+}
